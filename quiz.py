@@ -3,7 +3,7 @@ import random
 
 # Connect to the SQLite database
 def connect_database():
-    conn = sqlite3.connect("quiz_app.db")
+    conn = sqlite3.connect("quiz.db")
     return conn
 
 # Initialize the database (run only once to create tables)
